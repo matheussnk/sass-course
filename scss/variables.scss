@@ -1,0 +1,42 @@
+$width : 100%;
+$font-size:1.2rem;
+$background:#962acd;
+$color:#fff;
+$border-style:solid 1px $color;
+//Section
+$font:"Lucida Grande";
+$weight:bold;
+//Colors
+$bg:red;
+$bg-section:rgba(0,0,0,0.7);
+$font-color:#ffffff;
+//RGB será convertido em Hexadecimal
+
+//Map
+$social: (
+    facebook: #3b5998,
+    flickr: #0063db,
+    github: #4183c4,
+    googleplus: #dd4b39,
+    instagram: #517fa4,
+    linkedin: #007bb6,
+    pintrest: #cb2027,
+    soundcloud: #f60,
+    twitter: #00aced,
+    youtube: #b00,
+    );
+body{
+    background: $bg;
+    color:$font-color;
+}
+ nav{
+     width: $width;
+     color: $color;
+     background: $background;
+     font-size: $font-size;
+ }
+ section{
+     background: $bg-section;
+     font-family: $font;
+     font-weight: $weight;
+ }
