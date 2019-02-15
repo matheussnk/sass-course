@@ -1,0 +1,14 @@
+body {
+  background: red;
+  color: #ffffff; }
+
+nav {
+  width: 100%;
+  color: #fff;
+  background: #962acd;
+  font-size: 1.2rem; }
+
+section {
+  background: rgba(0, 0, 0, 0.7);
+  font-family: "Lucida Grande";
+  font-weight: bold; }
