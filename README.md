@@ -1,3 +1,3 @@
-# Curso-CSS-SASS computer
+# Curso-CSS-SASS <g-emoji class="g-emoji" alias="computer" fallback-src="https://github.githubassets.com/images/icons/emoji/unicode/1f4bb.png"><img class="emoji" alt="computer" height="30" width="40" src="https://github.githubassets.com/images/icons/emoji/unicode/1f4bb.png"></g-emoji>
 Sass é uma linguagem que estende e adiciona diversos recursos ao CSS, como criação de variáveis, loops, funções e muito mais. Através destes recursos é possível produzir e manter grandes arquivos CSS organizados além desenvolver rapidamente pequenos arquivos.
 Algumas coisas que aprendi com a @amandavilela e seu curso de Sass (Syntactically Awesome Style Sheets)
