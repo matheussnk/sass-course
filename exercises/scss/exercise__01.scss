@@ -1,0 +1,124 @@
+//Variables
+$zero:0;
+$font_size--root:16px;
+$border:border;
+//Medidas 
+$w90:90%;
+$mx__medium:935px;
+*{
+    margin :$zero;
+    padding : $zero;
+    font-size: $font_size--root;
+}
+html{
+    font-size: $font_size--root;
+}
+ul{
+    margin: $zero;
+    padding: $zero;
+}
+img{
+    #{$border}:$zero;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background: #fafafa;
+}
+main{
+    width: $w90;
+    max-width:$mx__medium ;
+    margin: $zero auto;
+}
+header{
+    display: flex;
+    margin: 30px $zero;
+
+    .avatar{
+        -webkit-border-radius:50%;
+        -moz-border-radius:50%;
+        border-radius: 50%;
+        margin: $zero auto;
+    }
+    .desc{
+        text-align: center;
+    }
+    h1,h2{
+        display: inline-block;
+        margin: 10px $zero;
+    }
+    h1{
+        font-size: 1.75em;
+    }
+    h2{
+        font-size: 1.5em;
+    }
+    .links{
+        list-style: none;
+        margin: 10px $zero;
+        li{
+            list-style: none;
+            margin: $zero 20px $zero $zero;
+            display: inline-block;
+        }
+    }
+}
+.btn-follow{
+    margin: $zero 20px;
+    padding: 6px 14px;
+    #{$border}-width:1px;
+    #{$border}-style:solid;
+    #{$border}-color:#3897f0;
+    color:#3897f0;
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius: 4px;
+    &:hover{
+        background: #3897f0;
+        color:#fff;
+    }
+}
+.photos{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    li{
+        width: 100%;
+        margin: 20px $zero;
+        position: relative;
+        img{
+            width: 100%;
+        }
+        .img-hover{
+            opacity: 0;
+            position: absolute;
+            top:0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.3);
+            transition: all 0.3s linear;
+        }
+        &:hover .img-hover{
+            opacity: 1;
+        }
+    }
+}
+@media (min-width:768px){
+    header{
+        flex-flow: row;
+        .avatar{
+            margin: $zero 40px;
+        }
+        .desc{
+            text-align: left;
+        }
+    }
+    .photos{
+        li{
+            width: 30%;
+        }
+    }
+}
