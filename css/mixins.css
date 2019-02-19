@@ -1,0 +1,25 @@
+.box {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px; }
+
+h1 {
+  color: blue;
+  font-size: 14px; }
+
+h1 {
+  color: green;
+  font-size: 14px; }
+
+p {
+  padding: 20px; }
+
+p {
+  padding: 10px 20px; }
+
+p {
+  padding: 10px 20px 40px; }
+
+p {
+  padding: 10px 20px 30px 40px; }
